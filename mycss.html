@@ -1,0 +1,201 @@
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Cake.css"/>
+    <title>PURE CSS CAKE</title>
+	<style>
+	*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-touch-callout: none;
+	-webkit-tap-highlight-color: transparent;
+	outline: none;
+}
+body{
+  background-color:#2BA45D;
+}
+.cake{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+.plate{
+  width:220px;
+  height:50px;
+  border-radius:50%;
+  background-color:white;
+  position:relative ;
+  top:50px;
+  border:2px solid #D7D7D7;
+}
+.layer1{
+  width:200px;
+  height:50px;
+  background-color:#261B09;
+  border-radius:50% 50% 100% 100%;
+  position:absolute;
+  left:10px;
+  top:-10px;
+}
+.top1{
+  width:200px;
+  height:50px;
+  border-radius:50%;
+  background-color:#514015;
+  position:absolute;
+  border-radius:50%;
+  top:-16px;
+  border: 1px solid #5D3603 ;
+}
+.layer2{
+  width:170px;
+  height:50px;
+  background-color:#261B09;
+  border-radius:50% 50% 100% 100%;
+  position:absolute;
+  left:13px;
+  top:-30px;
+}
+.top2{
+  width:170px;
+  height:50px;
+  border-radius:50%;
+  background-color:#514015;
+  position:absolute;
+  border-radius:50%;
+  border: 1px solid #5D3603 ;
+  top:-16px
+}
+.layer3{
+  width:130px;
+  height:50px;
+  background-color:#261B09;
+  border-radius:50% 50% 100% 100%;
+  position:absolute;
+  left:20px;
+  top:-28px;
+}
+.top3{
+  width:130px;
+  height:50px;
+  border-radius:50%;
+  background-color:#FF417D;
+  border:2px solid #EE2666;
+  position:absolute;
+  border-radius:50%;
+  top:-16px
+}
+.l-1{
+  width:30px;
+  height:50px;
+  background-color:#EE2666;
+  border-radius:100%;
+  position:absolute;
+  top:-7px;
+  left:10px;
+}
+.l-2{
+  width:50px;
+  height:50px;
+  background-color:#EE2666;
+  border-radius:100%;
+  position:absolute;
+  top:-3px;
+  left:50px;
+}
+.l-3{
+  width:30px;
+  height:30px;
+  background-color:#EE2666;
+  border-radius:100%;
+  position:absolute;
+  top:5px;
+  left:99px;
+}
+.candle{
+  width:15px;
+  height:50px;
+background-image:linear-gradient( 45deg, red  50%,#FC641A 50%);
+  position:absolute;
+  border-radius:2px;
+  background-size:20px;
+  top:-25px;
+  left:50px;
+}
+.fire{
+  width:15px;
+  height:30px;
+  background-color:gold;
+  border-radius:100% 100% 70% 70%;
+  position:absolute;
+  top:-30px;
+  animation:fire 5s infinite linear ;
+}
+@keyframes fire {
+  35%{
+    transform:rotate(15deg);
+  }
+  50%{
+    transform:rotate(-15deg);
+  }
+}
+.link{
+  width:300px;
+  height:54px;
+  position:relative;
+  top:100px;
+  text-decoration:none;
+  text-align:center;
+  background-color:white;
+  left:-33px;
+  padding:5px;
+  color:black;
+  border-radius:5px;
+  box-shadow:5px 5px 5px #58585BB3;
+  
+}
+a{
+  text-decoration:none ;
+  font-size:30px;
+  
+  
+}
+	</style>
+</head>
+
+<body>
+<div class="cake">
+  <div class="plate">
+    <div class="layer1">
+      <div class="top1"></div>
+         <div class="layer2">
+      <div class="top2"></div>
+               <div class="layer3">
+     <div class="l-1"></div>
+     <div class="l-2"></div>
+     <div class="l-3"></div>
+      <div class="top3">
+        <div class="candle">
+          <div class="fire"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<a href="blackterminalbpd.com"><div class="link">learn to code</div></a>
+
+</body>
+
+</html>
